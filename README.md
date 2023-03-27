@@ -1,6 +1,5 @@
 A DFT + DMFT interface code, 
-developed based on the projected local orbital formalism as described in: 
-
+developed based on the projected local orbital formalism as described in: //
 J. Phys.: Condens. Matter 23 085601 (2011)
  
 The code includes the CT-QMC solver routines (ctqmc_*.f90 files) from the iQIST package: 
