@@ -1,0 +1,31 @@
+# Fortran preprocessor options, common setting
+MPI    = -DMPI
+OMP    = 
+FPP    = -fpp
+CPP_2  = $(FPP) $(MPI) 
+
+# machine tuning options, just for my laptop: iris system
+GPROF  =                  #-pg
+CHECK  = -g -traceback    #-warn all -vec-report2 
+ALIGN  = -align all       #-nogen-interfaces
+LEVEL  = -O3              #-axS -ftz -unroll-aggressive
+MARCH  = -march=westmere
+
+# compiler and linker
+F90    = mpif90
+LINKER = $(F90)
+
+# flags for compiler and linker
+FFLAGS = -c $(CPP_2) $(CHECK) $(ALIGN) $(LEVEL) $(MTUNE) $(GPROF)
+LFLAGS =  $(OMP) $(GPROF)
+
+# linear algebra library, lapack and blas
+#LIBS   = -L/afs/physnet.uni-hamburg.de/users/softsrv/intel/mkl/10.0.011/lib/em64t -lmkl_lapack -lmkl_em64t -lguide -lpthread
+#LIBS   = -L. -llapack -lblas #-lguide
+#LIBS   = -L. -llapack -lgoto #-lguide
+
+LIBS = -mkl
+
+#LIBMPI  = -L/usr/lib -lmpi_mpifh
+
+
