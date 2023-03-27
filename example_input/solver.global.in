@@ -1,0 +1,37 @@
+!=========================================================================
+! setup dynamical mean field theory self-consistent engine related common variables
+!=========================================================================
+      2            ! without symmetry    (1) or with symmetry   mode (2)
+      1            ! spin projection, PM (1) or AFM             mode (2)
+      1            ! without binning     (1) or with binning    mode (2)
+!-------------------------------------------------------------------------
+      3            ! number of correlated bands
+      2            ! number of spin projection
+     10            ! maximum number of DMFT self-consistent iterations
+!-------------------------------------------------------------------------
+     19.0          ! Total Number of particles
+     10.00         ! inversion of temperature
+       0           ! manual chemical potential controltag, 0: automatic, 1: manual
+     -0.05         ! manual chemical potential
+     0.70          ! mixing parameter for self-consistent engine
+     QMC           ! solver choice string, QMC or ED at present
+     512           ! maximum number of matsubara frequency
+!^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     512           ! maximum perturbation expansions order
+     128           ! maximum number of matsubara frequency sampling by quantum impurity solver
+     1024          ! number of time slice
+     50000         ! flip period for spin up and spin down states
+     500000        ! maximum number of thermalization steps
+     50000000      ! maximum number of quantum Monte Carlo sampling steps
+     5000000       ! output period
+     62500         ! clean update period
+     10            ! how often to sampling the gmat and nmat
+     10            ! how often to sampling the gtau and prob
+!^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    0.01           ! imaginary offset for real axis
+       3           ! fitting routine, 0 no fit, 1 2 3 some routines
+       1           ! weight for the fit, 1: constant
+      50           ! Number of lowest eigenvalues to find in Arnoldi
+   0.001           ! Boltzmann factor cutoff
+    .false.        ! density-density interaction in ED
+!^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
