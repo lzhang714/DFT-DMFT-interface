@@ -1,36 +1,6 @@
-!-------------------------------------------------------------------------
-! project : azalea@fantasy
-! program : stack      module
-!           stack@istack_create
-!           stack@istack_clean
-!           stack@istack_destroy
-!           stack@istack_copyer
-!           stack@istack_setter
-!           stack@istack_getter
-!           stack@istack_push
-!           stack@istack_pop
-!           stack@istack_display
-!           stack@istack_gettop
-!           stack@istack_getrest
-!           stack@istack_getsize
-!           stack@istack_isfull
-!           stack@istack_isempty
-! source  : mod_stack.f90
-! type    : module
-! author  : li huang (email:huangli712@yahoo.com.cn)
-! history : 09/14/2009 by li huang
-!           09/15/2009 by li huang
-!           09/20/2009 by li huang
-!           09/23/2009 by li huang
-!           11/01/2009 by li huang
-!           12/18/2009 by li huang
-!           02/01/2010 by li huang
-!           02/23/2010 by li huang
+
 ! purpose : the purpose of this module is to define a stack-type (LIFO)
 !           data structure in fortran version
-! status  : unstable
-! comment :
-!-------------------------------------------------------------------------
 
   module stack
      implicit none
