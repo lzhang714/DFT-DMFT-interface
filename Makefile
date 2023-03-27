@@ -1,5 +1,4 @@
 .SUFFIXES: .f90
-
 include ./make.sys
 
 #LFLAGS := -L$(HOME)/lib ./ARPACK_lib/libarpack.a ./ARPACK_lib/libparpack.a
