@@ -23,4 +23,8 @@ The input files can be based on any DFT calculation, as long as the user ensures
   <br />
 The code outputs the converged self energy and the full Green's function. <br />
   <br />
+The code does not include any routine for analytical continuation. <br />
+  <br />
 The code is MPI paralleled. <br />
+  <br />
+L.Zhang @ UF
