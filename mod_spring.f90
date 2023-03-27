@@ -1,38 +1,4 @@
 !-------------------------------------------------------------------------
-! project : azalea@fantasy
-! program : spring     module
-!           spring@spring_mt_init
-!           spring@spring_mt_stream
-!           spring@spring_mt_string
-!           spring@spring_mt_source
-!           spring@spring_sfmt_init
-!           spring@spring_sfmt_stream
-!           spring@spring_sfmt_string
-!           spring@spring_sfmt_source
-!           spring@spring_sfmt_kernel
-!           spring@spring_sfmt_core
-! source  : mod_spring.f90
-! type    : module
-! author  : li huang (email:huangli712@yahoo.com.cn)
-! history : 01/03/2008 by li huang
-!           01/04/2008 by li huang
-!           01/07/2008 by li huang
-!           01/08/2008 by li huang
-!           10/24/2008 by li huang
-!           12/21/2008 by li huang
-!           08/08/2009 by li huang
-!           08/09/2009 by li huang
-!           08/22/2009 by li huang
-!           02/27/2010 by li huang
-! purpose : the purpose of this module is to define several modern, highly
-!           reliable, fast, ease-to-use, and state-of-the-art pseudorandom
-!           number generators, which are essential in massively parallel
-!           quantum Monte Carlo simulations.
-! status  : unstable
-! comment :
-!-------------------------------------------------------------------------
-
-!-------------------------------------------------------------------------
 !>>> introduction
 !
 ! the following two random number generators (generates a random number
