@@ -1,44 +1,9 @@
 !
-! MK: modified, especially to account for 64 bit integers....
-! Original header:
-!
+! L.Zhang: modified to account for 64 bit integers....
+! 
 !-------------------------------------------------------------------------
-! project : azalea@fantasy
-! program : mmpi
-! source  : mod_mpi.f90
-! type    : module
-! author  : li huang (email:huangli712yahoo.com.cn)
-! history : 08/09/2006 by li huang
-!           08/14/2006 by li huang
-!           08/18/2006 by li huang
-!           08/21/2006 by li huang
-!           08/25/2006 by li huang
-!           08/29/2006 by li huang
-!           09/11/2006 by li huang
-!           09/13/2006 by li huang
-!           09/26/2006 by li huang
-!           10/31/2006 by li huang
-!           11/15/2006 by li huang
-!           11/26/2006 by li huang
-!           12/10/2006 by li huang
-!           02/20/2007 by li huang
-!           02/28/2007 by li huang
-!           03/02/2007 by li huang
-!           03/14/2007 by li huang
-!           04/17/2007 by li huang
-!           04/19/2007 by li huang
-!           01/11/2008 by li huang
-!           10/24/2008 by li huang
-!           12/15/2008 by li huang
-!           04/27/2009 by li huang
-!           07/29/2009 by li huang
-!           08/22/2009 by li huang
-!           12/18/2009 by li huang
-!           02/27/2010 by li huang
-! purpose : to define my own mpi calls, inspired by quantum-espresso code. 
-!           note that the original mpi subroutines are rather complicated
-!           for newbies. thus we try to wrap the most important and useful
-!           (not all) mpi subroutines, including
+! purpose : to define the mpi calls, motivated by QE. 
+!           we wrap the most important and useful mpi subroutines，
 !               MPI_INIT(),
 !               MPI_FINALIZE(),
 !               MPI_WTIME(),
@@ -58,9 +23,8 @@
 !               MPI_ALLGATHERV(),
 !               MPI_REDUCE(),
 !               MPI_ALLREDUCE(),
-!           etc, to facilite the usage of mpi. in the module, we also
-!           implement a new light-weight error handler. enjoy it!
-! status  : unstable
+!           to facilite the usage of MPI. in the module.
+!
 ! comment : this module is tested under the mpich (anl) environment.
 !               mpich1-1.2.7p1
 !               mpich2-1.0.8
