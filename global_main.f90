@@ -6,15 +6,16 @@
 ! A test program for dynamical mean field theory (DMFT) self-consistent  !
 ! engine plus hybridization expansion version continuous time quantum    !
 ! Monte Carlo (CTQMC) quantum impurity solver                            !
-! author  : li huang                                                     !
-! version : v2015.12.15T                                                 !
-! status  : WARNING: IN TESTING STAGE, USE IT IN YOUR RISK               !
-! comment : this impurity solver is based on segment picture formalism   !
-!           any question, please contact with huangli712@yahoo.com.cn    !
+! solver author : li huang                                               !
+! version       : v2015.12.15T                                           !
+! status        : WARNING: IN TESTING STAGE, USE IT IN YOUR RISK         !
+! comment       : this impurity solver is based on segment picture       !
+!                 formalism any question about the solver,               !
+!                 please contact with huangli712@yahoo.com.cn            ! 
 !=========+=========+=========+=========+=========+=========+=========+>>>
 !
 !
-! built starting from the solver codes by Long Zhang 
+! built starting from the solver codes by L.Zhang 
 !
 
   program dft_dmft 
