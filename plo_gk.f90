@@ -2,9 +2,9 @@
 ! Calculates the local Green function
 !   G(z) = Sum_k ( z - H(k) - Sigma(z) )^-1
 !
-! Long Zhang created, most recently modified 2017
+! L.Zhang: created, then most recently modified 2017
 !
-!
+
   subroutine plo_gk()
 
    use constants
