@@ -19,7 +19,7 @@ The code takes as input:  <br />
 (1) the diagonal Bloch Hamiltonian (band energies) within the correlation window; <br />
 (2) the projectors that downfold the Bloch Hamiltonian to Wannier basis; <br />
 (3) a simple input file containing the solver control parameters;<br />
-The input files can be based on any DFT calculation, as long as the user ensure the correctness of the projectors. <br />
+The input files can be based on any DFT calculation, as long as the user ensures the correctness of the projectors. <br />
   <br />
 The code outputs the converged self energy and the full Green's function. <br />
   <br />
