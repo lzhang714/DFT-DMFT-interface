@@ -1,23 +1,5 @@
 !
-! MK: modified, introduced int64...
-! Original header:
-!
-!-------------------------------------------------------------------------
-! project : azalea
-! program : constants  module
-! source  : global_constants.f90
-! type    : module
-! author  : li huang (email:huangli712@yahoo.com.cn)
-! history : 09/15/2009 by li huang
-! purpose : define the numerical and physical constants for hybridization
-!           expansion version continuous time quantum Monte Carlo (CTQMC)
-!           quantum impurity solver and dynamical mean field theory (DMFT)
-!           self-consistent engine
-! input   :
-! output  :
-! status  : unstable
-! comment :
-!-------------------------------------------------------------------------
+! L.Zhang: modified, introduced int64...
 
   module constants
 
